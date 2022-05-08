@@ -1,0 +1,463 @@
+<!doctype html>
+<html class="fixed">
+<head>
+
+	<!-- Basic -->
+	<meta charset="UTF-8">
+
+	<title>User Profile</title>
+
+
+	<!-- Web Fonts  -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+	<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
+	<link rel="stylesheet" href="assets/stylesheets/theme.css" />
+	<link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+	<link rel="stylesheet" href="assets/stylesheets/theme-custom.css">
+	<script src="assets/vendor/modernizr/modernizr.js"></script>
+	<link rel="stylesheet" href="assets/vendor/bootstrap-fileupload/bootstrap-fileupload.min.css" />
+
+</head>
+<body>
+	<section class="body">
+
+		<!-- start: header -->
+		<header class="header">
+			<div class="logo-container">
+				<h2 class="logo pull-left">Business Pioneers</h2>
+
+				<div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
+					<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+				</div>
+			</div>
+			
+			<!-- start: search & user box -->
+			<div class="header-right">
+
+				<ul class="notifications">
+
+					<li>
+						<a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
+							<i class="fa fa-bell"></i>
+							<span class="badge">3</span>
+						</a>
+
+						<div class="dropdown-menu notification-menu">
+							<div class="notification-title">
+								<span class="pull-right label label-default">3</span>
+								Notification
+							</div>
+
+							<div class="content">
+								<ul>
+									<li>
+										<a href="#" class="clearfix">
+											<div class="image">
+												<i class="fa fa-signal bg-success"></i>
+											</div>
+											<span class="title">new idea downloaded</span>
+											<span class="message">Just now</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="clearfix">
+											<div class="image">
+												<i class="fa fa-thumbs-down bg-danger"></i>
+
+											</div>
+											<span class="title">Server is Down!</span>
+											<span class="message">5 minutes ago</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="clearfix">
+											<div class="image">
+												<i class="fa fa-lock bg-warning"></i>
+											</div>
+											<span class="title">User Locked</span>
+											<span class="message">15 minutes ago</span>
+										</a>
+									</li>
+
+								</ul>
+
+								<hr />
+
+								<div class="text-right">
+									<a href="#" class="view-more">View All</a>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+				<span class="separator"></span>
+
+				<div id="userbox" class="userbox">
+					<a href="#" data-toggle="dropdown">
+						<figure class="profile-picture">
+							<img src="assets/images/FB_IMG_1510694171074.jpg" alt="Dana Tabbaa" class="img-circle" data-lock-picture="assets/images/FB_IMG_1510694171074.jpg" />
+						</figure>
+						<div class="profile-info" data-lock-name="Dana Tabbaa" data-lock-email="tabaa200@gmail.com">
+							<span class="name">Dana Tabbaa</span>
+						</div>
+
+						<i class="fa custom-caret"></i>
+					</a>
+
+					<div class="dropdown-menu">
+						<ul class="list-unstyled">
+							<li class="divider"></li>
+							<li>
+								<a role="menuitem" tabindex="-1" href="user-Profile.html"><i class="fa fa-user"></i> My Profile</a>
+							</li>
+							<li>
+								<a role="menuitem" tabindex="-1" href="#" data-lock-screen="true"><i class="fa fa-lock"></i> Lock Screen</a>
+							</li>
+							<li>
+								<a role="menuitem" tabindex="-1" href="pages-signin.html"><i class="fa fa-power-off"></i> Logout</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end: search & user box -->
+		</header>
+		<!-- end: header -->
+
+		<div class="inner-wrapper">
+			<!-- start: sidebar -->
+			<aside id="sidebar-left" class="sidebar-left">
+				
+				<div class="sidebar-header">
+
+					<div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+						<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+					</div>
+				</div>
+				
+				<div class="nano">
+					<div class="nano-content">
+						<nav id="menu" class="nav-main" role="navigation">
+							<ul class="nav nav-main">
+								<li>
+									<a href="List_Ideas.html">
+										<i class="fa fa-list-alt" aria-hidden="true"></i>
+										<span>List Ideas</span>
+									</a>
+								</li>
+
+								
+								
+
+							</ul>
+							<ul class="nav nav-main">
+								<li>
+									<a href="Add_Idea.html">
+										<i class="fa fa-plus-square" aria-hidden="true"></i>
+										<span>Add Idea</span>
+									</a>
+								</li>
+							</ul>
+							<ul class="nav nav-main">
+								<li>
+									<a href="Search_with_filter.html">
+										<i class="fa fa-search" aria-hidden="true"></i>
+										<span>Search with filter</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+
+
+
+
+					</div>
+
+				</div>
+
+			</aside>
+			<!-- end: sidebar -->
+
+			<section role="main" class="content-body">
+				<header class="page-header">
+					<h2>User Profile</h2>
+
+
+				</header>
+
+				<!-- start: page -->
+
+				<div class="row">
+					<div class="col-md-4 col-lg-3">
+
+						<section class="panel">
+							<div class="panel-body">
+								<div class="thumb-info mb-md">
+									<img src="assets/images/FB_IMG_1510694171074.jpg" class="rounded img-responsive" alt="John Doe">
+
+								</div>
+								<div class="row">
+									<div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
+										<div class="address-hr">
+											<p><b>Name:</b><br />Dana Tabbaa </p>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
+										<div class="address-hr tb-sm-res-d-n dps-tb-ntn">
+											<p><b>nationality:</b><br />Syrian</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
+										<div class="address-hr">
+											<p><b>Password:</b><br />123456</p>
+										</div>
+									</div>
+
+									<div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
+										<div class="address-hr tb-sm-res-d-n dps-tb-ntn">
+											<p><b>Tel:</b><br />0993235730</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
+										<div class="address-hr">
+
+											<p><b>E-mail:</b><br />tabaa200@gmail.com</p>
+										</div>
+									</div>
+
+								</div>
+
+
+								<hr class="dotted short">
+
+								<div class="social-icons-list">
+									<a rel="tooltip" data-placement="bottom" target="_blank" href="http://www.facebook.com" data-original-title="Facebook"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+									<a rel="tooltip" data-placement="bottom" href="http://www.twitter.com" data-original-title="Twitter"><i class="fa fa-twitter"></i><span>Twitter</span></a>
+									<a rel="tooltip" data-placement="bottom" href="http://www.linkedin.com" data-original-title="Linkedin"><i class="fa fa-linkedin"></i><span>Linkedin</span></a>
+								</div>
+
+							</div>
+						</section>
+
+
+
+					</div>
+					<div class="col-md-8 col-lg-8">
+
+						<div class="tabs">
+							<ul class="nav nav-tabs tabs-primary">
+								<li class="active">
+									<a href="#overview" data-toggle="tab">Published Ideas</a>
+								</li>
+								<li>
+									<a href="#new" data-toggle="tab">Participation requests</a>
+								</li>
+								<li>
+									<a href="#edit" data-toggle="tab">Edit Personal Info</a>
+								</li>
+							</ul>
+							<div class="tab-content">
+								<div id="overview" class="tab-pane active">
+									<br>
+
+									<section class="hidden-md panel panel-featured-left panel-featured-primary">
+										<div class="panel-body">
+											<div class="widget-summary widget-summary-xlg">
+												<div class="widget-summary-col widget-summary-col-icon">
+													<div class="summary-icon">
+
+														<img src="assets/images/home.jfif" class="rounded img-responsive" alt="John Doe">
+
+
+													</div>
+												</div>
+
+												<div class="widget-summary-col">
+													<div class="summary">
+														<h4 class="title"><strong class="amount">Smart Home</strong></h4>
+														<div class="info">
+
+															<span class="text-primary">(Need finance)</span>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</section>
+
+									<section class="hidden-md panel panel-featured-left panel-featured-primary">
+										<div class="panel-body">
+											<div class="widget-summary widget-summary-xlg">
+												<div class="widget-summary-col widget-summary-col-icon">
+													<div class="summary-icon">
+
+														<img src="assets/images/home.jfif" class="rounded img-responsive" alt="John Doe">
+
+
+													</div>
+												</div>
+
+												<div class="widget-summary-col">
+													<div class="summary">
+														<h4 class="title"><strong class="amount">Smart Home</strong></h4>
+														<div class="info">
+
+															<span class="text-primary">(Need finance)</span>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</section>
+
+
+								</div>
+								<div id="new" class="tab-pane">
+
+
+									<div class="row">
+										<div class="col-md-9">
+
+											<div class="toggle" data-plugin-toggle>
+												<section class="toggle">
+													<label>Assistant robot</label>
+													<div class="toggle-content">
+														<p>The type of participation request : Work Plan</p>
+													</div>
+												</section>
+
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-9">
+
+											<div class="toggle" data-plugin-toggle>
+												<section class="toggle">
+													<label>Assistant robot</label>
+													<div class="toggle-content">
+														<p>The type of participation request : financial</p>
+													</div>
+												</section>
+
+											</div>
+										</div>
+									</div>
+
+
+								</div>
+
+								<div id="edit" class="tab-pane">
+
+									<form class="form-horizontal" method="get">
+										<h4 class="mb-xlg">Personal Information</h4>
+										<fieldset>
+											<div class="form-group">
+												<label class="col-md-3 control-label" for="Name">Name</label>
+												<div class="col-md-8">
+													<input type="text" class="form-control" id="Name">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-md-3 control-label" for="nationality">nationality</label>
+												<div class="col-md-8">
+													<input type="text" class="form-control" id="nationality">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-md-3 control-label" for="Tel">Tel</label>
+												<div class="col-md-8">
+													<input type="text" class="form-control" id="Tel">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-md-3 control-label" for="E-mail">E-mail</label>
+												<div class="col-md-8">
+													<input type="text" class="form-control" id="E-mail">
+												</div>
+											</div>
+										</fieldset>
+
+										<hr class="dotted tall">
+										<h4 class="mb-xlg">personal image</h4>
+										<div class="form-group">
+											<label class="col-md-3 control-label">File Upload</label>
+											<div class="col-md-6">
+												<div class="fileupload fileupload-new" data-provides="fileupload">
+													<div class="input-append">
+														<div class="uneditable-input">
+															<i class="fa fa-file fileupload-exists"></i>
+															<span class="fileupload-preview"></span>
+														</div>
+														<span class="btn btn-default btn-file">
+															<span class="fileupload-exists">Change</span>
+															<span class="fileupload-new">Select file</span>
+															<input type="file" />
+														</span>
+														<a href="#" class="btn btn-default fileupload-exists" data-dismiss="fileupload">Remove</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<hr class="dotted tall">
+										<h4 class="mb-xlg">Change Password</h4>
+										<fieldset class="mb-xl">
+											<div class="form-group">
+												<label class="col-md-3 control-label" for="profileNewPassword">New Password</label>
+												<div class="col-md-8">
+													<input type="text" class="form-control" id="profileNewPassword">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-md-3 control-label" for="profileNewPasswordRepeat">Repeat New Password</label>
+												<div class="col-md-8">
+													<input type="text" class="form-control" id="profileNewPasswordRepeat">
+												</div>
+											</div>
+										</fieldset>
+										<div class="panel-footer">
+											<div class="row">
+												<div class="col-md-9 col-md-offset-3">
+													<button type="submit" class="btn btn-primary">Submit</button>
+													<button type="reset" class="btn btn-default">Reset</button>
+												</div>
+											</div>
+										</div>
+
+									</form>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+				<!-- end: page -->
+			</section>
+		</div>
+
+	</section>
+
+	<script src="assets/vendor/jquery/jquery.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+	<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
+	<script src="assets/vendor/magnific-popup/magnific-popup.js"></script>
+	<script src="assets/javascripts/theme.js"></script>
+	<script src="assets/javascripts/theme.custom.js"></script>
+	<script src="assets/javascripts/theme.init.js"></script>
+	<script src="assets/vendor/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>o
+
+</body>
+</html>

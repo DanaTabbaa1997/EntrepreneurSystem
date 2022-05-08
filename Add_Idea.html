@@ -1,0 +1,331 @@
+<!doctype html>
+<html class="fixed">
+<head>
+
+	<!-- Basic -->
+	<meta charset="UTF-8">
+
+	<title>Add Idea</title>
+	
+
+	<!-- Web Fonts  -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+	<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
+	<link rel="stylesheet" href="assets/stylesheets/theme.css" />
+	<link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+	<link rel="stylesheet" href="assets/vendor/bootstrap-fileupload/bootstrap-fileupload.min.css" />
+	<script src="assets/vendor/modernizr/modernizr.js"></script>
+
+
+
+</head>
+<body>
+	<section class="body">
+
+		<!-- start: header -->
+		<header class="header">
+			<div class="logo-container">
+				<h2 class="logo pull-left">Business Pioneers</h2>
+
+				<div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
+					<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+				</div>
+			</div>
+			
+			<!-- start: search & user box -->
+			<div class="header-right">
+
+				<ul class="notifications">
+
+					<li>
+						<a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
+							<i class="fa fa-bell"></i>
+							<span class="badge">3</span>
+						</a>
+
+						<div class="dropdown-menu notification-menu">
+							<div class="notification-title">
+								<span class="pull-right label label-default">3</span>
+								Notification
+							</div>
+
+							<div class="content">
+								<ul>
+									<li>
+										<a href="#" class="clearfix">
+											<div class="image">
+												<i class="fa fa-signal bg-success"></i>
+											</div>
+											<span class="title">new idea downloaded</span>
+											<span class="message">Just now</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="clearfix">
+											<div class="image">
+												<i class="fa fa-thumbs-down bg-danger"></i>
+											</div>
+											<span class="title">Server is Down!</span>
+											<span class="message">5 minutes ago</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="clearfix">
+											<div class="image">
+												<i class="fa fa-lock bg-warning"></i>
+											</div>
+											<span class="title">User Locked</span>
+											<span class="message">15 minutes ago</span>
+										</a>
+									</li>
+
+								</ul>
+
+								<hr />
+
+								<div class="text-right">
+									<a href="#" class="view-more">View All</a>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+				<span class="separator"></span>
+
+				<div id="userbox" class="userbox">
+					<a href="#" data-toggle="dropdown">
+						<figure class="profile-picture">
+							<img src="assets/images/FB_IMG_1510694171074.jpg" alt="Dana Tabbaa" class="img-circle" data-lock-picture="assets/images/FB_IMG_1510694171074.jpg" />
+						</figure>
+						<div class="profile-info" data-lock-name="Dana Tabbaa" data-lock-email="tabaa200@gmail.com">
+							<span class="name">Dana Tabbaa</span>
+						</div>
+
+						<i class="fa custom-caret"></i>
+					</a>
+
+					<div class="dropdown-menu">
+						<ul class="list-unstyled">
+							<li class="divider"></li>
+							<li>
+								<a role="menuitem" tabindex="-1" href="user-Profile.html"><i class="fa fa-user"></i> My Profile</a>
+							</li>
+							<li>
+								<a role="menuitem" tabindex="-1" href="#" data-lock-screen="true"><i class="fa fa-lock"></i> Lock Screen</a>
+							</li>
+							<li>
+								<a role="menuitem" tabindex="-1" href="pages-signin.html"><i class="fa fa-power-off"></i> Logout</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end: search & user box -->
+		</header>
+		<!-- end: header -->
+
+		<div class="inner-wrapper">
+			<!-- start: sidebar -->
+			<aside id="sidebar-left" class="sidebar-left">
+				
+				<div class="sidebar-header">
+
+					<div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+						<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+					</div>
+				</div>
+				
+				<div class="nano">
+					<div class="nano-content">
+						<nav id="menu" class="nav-main" role="navigation">
+							<ul class="nav nav-main">
+								<li>
+									<a href="List_Ideas.html">
+										<i class="fa fa-list-alt" aria-hidden="true"></i>
+										<span>List Ideas</span>
+									</a>
+								</li>
+
+								
+								
+
+							</ul>
+							<ul class="nav nav-main">
+								<li>
+									<a href="Add_Idea.html">
+										<i class="fa fa-plus-square" aria-hidden="true"></i>
+										<span>Add Idea</span>
+									</a>
+								</li>
+							</ul>
+							<ul class="nav nav-main">
+								<li>
+									<a href="Search_with_filter.html">
+										<i class="fa fa-search" aria-hidden="true"></i>
+										<span>Search with filter</span>
+									</a>
+								</li>
+							</ul>
+
+						</nav>
+
+
+
+
+					</div>
+
+				</div>
+
+			</aside>
+			<!-- end: sidebar -->
+
+
+			<section role="main" class="content-body">
+				<header class="page-header">
+					<h2>Add Idea</h2>
+
+				</header>
+
+				<!-- start: page -->
+				<div >
+					<section class="panel">
+						<header class="panel-heading">
+							<div class="panel-actions">
+								<a href="#" class="fa fa-caret-down"></a>
+
+							</div>
+
+							<h2 class="panel-title">Add Idea</h2>
+														<h2 class="panel-title">Add Idea</h2>
+
+						</header>
+						<div class="panel-body">
+
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="inputRounded">Idea Name</label>
+								<div class="col-md-6">
+									<input type="text" class="form-control input-rounded" id="inputRounded">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="inputRounded">owner Name</label>
+								<div class="col-md-6">
+									<input type="text" class="form-control input-rounded" id="inputRounded">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="inputRounded">Describtion</label>
+								<div class="col-md-6">
+									<input type="text" class="form-control input-rounded" id="inputRounded">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="inputRounded">rating</label>
+								<div class="col-md-6">
+									<div class="input-group mb-md">
+										<input type="text" class="form-control">
+										<span style="background-color: #34495e" class="input-group-addon btn-warning">/10</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="textareaDefault">Text about the idea</label>
+								<div class="col-md-6">
+									<textarea class="form-control" rows="3" id="textareaDefault"></textarea>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-md-3 control-label">Images Upload</label>
+								<div class="col-md-6">
+									<div class="fileupload fileupload-new" data-provides="fileupload">
+										<div class="input-append">
+											<div class="uneditable-input">
+												<i class="fa fa-file fileupload-exists"></i>
+												<span class="fileupload-preview"></span>
+											</div>
+											<span class="btn btn-default btn-file">
+												<span class="fileupload-exists">Change</span>
+												<span class="fileupload-new">Select file</span>
+												<input type="file" />
+											</span>
+											<a href="#" class="btn btn-default fileupload-exists" data-dismiss="fileupload">Remove</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-md-3 control-label">Videos Upload</label>
+								<div class="col-md-6">
+									<div class="fileupload fileupload-new" data-provides="fileupload">
+										<div class="input-append">
+											<div class="uneditable-input">
+												<i class="fa fa-file fileupload-exists"></i>
+												<span class="fileupload-preview"></span>
+											</div>
+											<span class="btn btn-default btn-file">
+												<span class="fileupload-exists">Change</span>
+												<span class="fileupload-new">Select file</span>
+												<input type="file" />
+											</span>
+											<a href="#" class="btn btn-default fileupload-exists" data-dismiss="fileupload">Remove</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-group" >
+								<label class="col-sm-3 control-label" >Link</label>
+								<div class="col-sm-6">
+									<input type="url" name="link" class="form-control" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label">What does the idea need</label>
+								<div class="col-sm-6">
+									<select id="company" class="form-control" required>
+
+										<option value="apple">financial support</option>
+										<option value="google">Skillful team</option>
+										<option value="microsoft">Work plan</option>
+
+									</select>
+									<label class="error" for="company"></label>
+								</div>
+							</div>
+							<div  style="text-align: center;">
+								<button class="btn btn-primary">Submit</button>
+								<button type="reset" class="btn btn-default">Reset</button>
+
+							</div>           
+
+
+
+
+
+						</div>
+					</section>
+				</div>
+				<!-- end: page -->
+			</section>
+		</div>
+
+	</section>
+
+	<script src="assets/vendor/jquery/jquery.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+	<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
+	<script src="assets/vendor/magnific-popup/magnific-popup.js"></script>
+	<script src="assets/vendor/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>
+	<script src="assets/javascripts/theme.js"></script>
+	<script src="assets/javascripts/theme.custom.js"></script>
+	<script src="assets/javascripts/theme.init.js"></script>
+	<script src="assets/javascripts/tables/examples.datatables.tabletools.js"></script>
+
+</body>
+</html>
+

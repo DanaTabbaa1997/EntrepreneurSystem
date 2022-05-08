@@ -1,0 +1,416 @@
+<!doctype html>
+<html class="fixed sidebar-left-collapsed">
+<head>
+
+	<!-- Basic -->
+	<meta charset="UTF-8">
+
+	<title>Search with filter</title>
+
+
+
+
+	<!-- Web Fonts  -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+	<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
+	<link rel="stylesheet" href="assets/vendor/isotope/jquery.isotope.css" />
+	<link rel="stylesheet" href="assets/stylesheets/theme.css" />
+	<link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+	<link rel="stylesheet" href="assets/stylesheets/theme-custom.css">
+	<script src="assets/vendor/modernizr/modernizr.js"></script>
+	<link rel="stylesheet" href="assets/stylesheets/filter.css" />
+
+
+</head>
+<body>
+	<section class="body">
+
+		<!-- start: header -->
+		
+		<header class="header">
+			<div class="logo-container">
+				<h2 class="logo pull-left">Business Pioneers</h2>
+
+				<div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
+					<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+				</div>
+			</div>
+			
+			<!-- start: search & user box -->
+			<div class="header-right">
+
+				
+
+				<span class="separator"></span>
+
+				<ul class="notifications">
+					
+
+					<li>
+						<a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
+							<i class="fa fa-bell"></i>
+							<span class="badge">3</span>
+						</a>
+
+						<div class="dropdown-menu notification-menu">
+							<div class="notification-title">
+								<span class="pull-right label label-default">3</span>
+								Alerts
+							</div>
+
+							<div class="content">
+								<ul>
+									<li>
+										<a href="#" class="clearfix">
+											<div class="image">
+												<i class="fa fa-signal bg-success"></i>
+											</div>
+											<span class="title">new idea downloaded</span>
+											<span class="message">Just now</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="clearfix">
+											<div class="image">
+												<i class="fa fa-thumbs-down bg-danger"></i>
+											</div>
+											<span class="title">Server is Down!</span>
+											<span class="message">5 minutes ago</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="clearfix">
+											<div class="image">
+												<i class="fa fa-lock bg-warning"></i>
+											</div>
+											<span class="title">User Locked</span>
+											<span class="message">15 minutes ago</span>
+										</a>
+									</li>
+
+								</ul>
+
+								<hr />
+
+								<div class="text-right">
+									<a href="#" class="view-more">View All</a>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+				<span class="separator"></span>
+
+				<div id="userbox" class="userbox">
+					<a href="#" data-toggle="dropdown">
+						<figure class="profile-picture">
+							<img src="assets/images/FB_IMG_1510694171074.jpg" alt="Dana Tabbaa" class="img-circle" data-lock-picture="assets/images/FB_IMG_1510694171074.jpg" />
+						</figure>
+						<div class="profile-info" data-lock-name="Dana Tabbaa" data-lock-email="tabaa200@gmail.com">
+							<span class="name">Dana Tabbaa</span>
+						</div>
+
+						<i class="fa custom-caret"></i>
+					</a>
+
+					<div class="dropdown-menu">
+						<ul class="list-unstyled">
+							<li class="divider"></li>
+							<li>
+								<a role="menuitem" tabindex="-1" href="user-Profile.html"><i class="fa fa-user"></i> My Profile</a>
+							</li>
+							<li>
+								<a role="menuitem" tabindex="-1" href="#" data-lock-screen="true"><i class="fa fa-lock"></i> Lock Screen</a>
+							</li>
+							<li>
+								<a role="menuitem" tabindex="-1" href="pages-signin.html"><i class="fa fa-power-off"></i> Logout</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end: search & user box -->
+		</header>
+		<!-- end: header -->
+
+		<div class="inner-wrapper">
+			<!-- start: sidebar -->
+			<aside id="sidebar-left" class="sidebar-left">
+				
+				<div class="sidebar-header">
+
+					<div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+						<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+					</div>
+				</div>
+				
+				<div class="nano">
+					<div class="nano-content">
+						<nav id="menu" class="nav-main" role="navigation">
+							<ul class="nav nav-main">
+								<li>
+									<a href="List_Ideas.html">
+										<i class="fa fa-list-alt" aria-hidden="true"></i>
+										<span>List Ideas</span>
+									</a>
+								</li>
+
+								
+								
+
+							</ul>
+							<ul class="nav nav-main">
+								<li>
+									<a href="List_Ideas.html">
+										<i class="fa fa-plus-square" aria-hidden="true"></i>
+										<span>Add Idea</span>
+									</a>
+								</li>
+							</ul>
+						
+							<ul class="nav nav-main">
+								<li>
+									<a href="Search_with_filter.html">
+										<i class="fa fa-search" aria-hidden="true"></i>
+										<span>Search with filter</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+
+
+
+
+					</div>
+
+				</div>
+
+			</aside>
+			<!-- end: sidebar -->
+
+			<section role="main" class="content-body">
+				<header class="page-header">
+					<h2>Search with filter</h2>
+
+
+				</header>
+
+				<!-- start: page -->
+				<div class="row" style="padding-top: 40px">
+
+					<div >
+
+
+						<div class="row">
+							<div class="col-md-6">
+
+
+								<form action="pages-search-results.html" class="search nav-form" style="padding-top: 10px">
+									<div class="input-group input-search">
+										<input type="text" class="form-control" name="q" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a name">
+
+									</div>
+								</form>
+
+							</div>
+
+
+							<div class="col-md-6">
+								<li class="right" data-sort-source data-sort-id="media-gallery">
+									<ul class="nav nav-pills nav-pills-primary">
+										<li>
+											<label>Filter:</label>
+										</li>
+										<li class="active">
+											<a data-option-value="*" href="#all">All</a>
+										</li>
+										<li>
+											<a data-option-value=".Prototype" href="#Prototype">Prototype</a>
+										</li>
+										<li>
+											<a data-option-value=".Need_financial" href="#Need_financial">Need_financial</a>
+										</li>
+										<li>
+											<a data-option-value=".Need_WorkPlan" href="#imageed_WorkPlan">Need_WorkPlan</a>
+										</li>
+										<li>
+											<a data-option-value=".Need_team" href="#Need_team">Need_team</a>
+										</li>
+										
+									</ul>
+								</li>
+							</div>
+
+						</div>
+
+
+					</div>
+					<div>
+
+
+						<div class="tab-content">
+							<div id="everything" class="tab-pane active">
+								<p class="total-results text-muted">Showing results</p>
+
+								<ul class="list-unstyled search-results-list">
+									<div class="row mg-files" data-sort-destination data-sort-id="media-gallery">
+
+										<ul id="myUL">
+											<div class="isotope-item Prototype ">
+												<div class="thumbnail">
+													<div class="thumb-preview">
+														
+														<li>
+															<p class="result-type">
+																<span class="label label-primary">user</span>
+															</p>
+															<a href="pages-user-Profile
+															user_profile.html" class="has-thumb">
+															<div class="result-thumb">
+																<img src="assets/images/home.jfif" alt="Dana Tabbaa" />
+															</div>
+															<div class="result-data">
+																<p class="h3 title text-primary">Smart Home</p>
+																<p class="description"> owner's name: Dana Tabb</p>
+																<span class="role">Software engineer</span>
+															</div>
+														</a>
+													</li>
+
+												</div>
+											</div>
+										</div>
+
+										<div class="isotope-item Need_team ">
+											<div class="thumbnail">
+												<div class="thumb-preview">
+
+													<li>
+														<p class="result-type">
+															<span class="label label-primary">user</span>
+														</p>
+														<a href="pages-user-Profile
+														user_profile.html" class="has-thumb">
+														<div class="result-thumb">
+															<img src="assets/images/hos.jfif" alt="Dana Tabbaa" />
+														</div>
+														<div class="result-data">
+															<p class="h3 title text-primary">hospital system</p>
+															<p class="description"> owner's name: Dana Tabb</p>
+															<span class="role">Software engineer</span>
+														</div>
+													</a>
+												</li>
+
+											</div>
+										</div>
+									</div>
+
+									<div class="isotope-item Need_financial">
+										<div class="thumbnail">
+											<div class="thumb-preview">
+
+												<li>
+													<p class="result-type">
+														<span class="label label-primary">user</span>
+													</p>
+													<a href="#" class="has-thumb">
+														<div class="result-thumb">
+															<img src="assets/images/rob.jfif" alt="Dana Tabbaa" />
+														</div>
+														<div class="result-data">
+															<p class="h3 title text-primary">Assistant robot</p>
+															<p class="description"> owner's name: Maya Awad</p>
+															<span class="role">AI engineer</span>
+														</div>
+													</a>
+												</li>
+
+											</div>
+										</div>
+									</div>
+									<div class="isotope-item Need_WorkPlan">
+										<div class="thumbnail">
+											<div class="thumb-preview">
+
+												<li>
+													<p class="result-type">
+														<span class="label label-primary">user</span>
+													</p>
+													<a href="#" class="has-thumb">
+														<div class="result-thumb">
+															<img src="assets/images/learn.png" alt="Dana Tabbaa" />
+														</div>
+														<div class="result-data">
+															<p class="h3 title text-primary">learning system</p>
+															<p class="description"> owner's name: Maya Awad</p>
+															<span class="role">AI engineer</span>
+														</div>
+													</a>
+												</li>
+
+											</div>
+										</div>
+									</div>
+
+								</ul>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</ul>
+
+		</ul>
+
+	</div>
+
+
+</div>
+
+
+
+
+</div>
+
+<!-- end: page -->
+</section>
+</div>
+
+
+
+</section>
+
+<!-- Vendor -->
+<script src="assets/vendor/jquery/jquery.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
+<script src="assets/vendor/magnific-popup/magnific-popup.js"></script>
+<script src="assets/vendor/isotope/jquery.isotope.js"></script>
+<script src="assets/javascripts/theme.js"></script>
+<script src="assets/javascripts/theme.custom.js"></script>
+<script src="assets/javascripts/theme.init.js"></script>
+<script src="assets/javascripts/pages/examples.mediagallery.js" /></script>
+<script src="assets/javascripts/filtering.js">
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
